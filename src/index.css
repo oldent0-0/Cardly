@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
+  color: #1b1c19;
+  background: #fbf9f4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 14px;
+  font-kerning: normal;
+  --ink: #1b1c19;
+  --muted: #727974;
+  --line: #e5e3dc;
+  --paper: #fff;
+  --canvas: #fbf9f4;
+  --green: #243e32;
+  --green-dark: #0e281d;
+  --mint: #eaf2ec;
+  --orange: #d3a078;
+}
+
+:root[data-theme='dark'] {
+  color: #e7ece7;
+  background: #111713;
+  --ink: #edf2ed;
+  --muted: #a1aaa2;
+  --line: #293229;
+  --paper: #1a211b;
+  --canvas: #111713;
+  --green: #92ad91;
+  --green-dark: #a9bea7;
+  --mint: #263228;
+  --orange: #dda17e;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, textarea, select { font: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: .48; }
+::selection { color: #20372b; background: #dce9d7; }
+
+:focus-visible { outline: 3px solid #91aa8e; outline-offset: 3px; }
