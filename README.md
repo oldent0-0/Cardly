@@ -54,7 +54,7 @@ The app is configured as one Render web service: Express serves both the built f
 
 1. Push the project to a GitHub repository. Keep `.env` private; it is ignored by Git.
 2. In Render, choose **New → Blueprint**, connect that repository, and let Render use the root `render.yaml`.
-3. Add `MONGODB_URI` in the Render service's environment settings using the Atlas connection string. Set `JWT_SECRET` to a unique random value of at least 32 characters; generate one locally with the command above. Do not paste either secret into GitHub or this chat.
+3. Add `MONGODB_URI` in the Render service's environment settings using the Atlas connection string. The Blueprint asks Render to generate a unique `JWT_SECRET` automatically; it is stored as a private service variable.
 4. In Atlas **Network Access**, allow the outbound IP addresses shown for your Render service. Avoid leaving database access open to all IPs.
 5. Deploy and check `/api/health`. For a custom domain, set `CLIENT_URL` in Render to the exact HTTPS origin, then redeploy.
 
