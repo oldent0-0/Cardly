@@ -736,6 +736,75 @@ h1, h2, h3, p { margin-top: 0; }
 :root[data-theme='dark'] .mobile-profile-menu strong { color: #edf2ed; }
 :root[data-theme='dark'] .mobile-profile-menu > span { color: #9da79f; }
 :root[data-theme='dark'] .mobile-profile-menu button { border-color: #344136; }
+
+/* Cream / ink / orchid theme overrides */
+:root:not([data-theme='dark']) .sidebar,
+:root:not([data-theme='dark']) .topbar,
+:root:not([data-theme='dark']) .folder-card,
+:root:not([data-theme='dark']) .recent-list,
+:root:not([data-theme='dark']) .flashcard-list,
+:root:not([data-theme='dark']) .study-card-face,
+:root:not([data-theme='dark']) .question-panel,
+:root:not([data-theme='dark']) .pair-choice,
+:root:not([data-theme='dark']) .auth-card,
+:root:not([data-theme='dark']) .modal-card,
+:root:not([data-theme='dark']) .search-box,
+:root:not([data-theme='dark']) .button-light,
+:root:not([data-theme='dark']) .study-mode-card,
+:root:not([data-theme='dark']) .practice-card,
+:root:not([data-theme='dark']) .card-preview { background: #fff; border-color: #e2d7e0; }
+
+:root:not([data-theme='dark']) .app-shell,
+:root:not([data-theme='dark']) .main-area,
+:root:not([data-theme='dark']) .auth-page { background: #fffaf3; }
+
+:root:not([data-theme='dark']) .topbar { background: rgba(255,250,243,.94); }
+:root:not([data-theme='dark']) .nav-item.active,
+:root:not([data-theme='dark']) .auth-tabs,
+:root:not([data-theme='dark']) .avatar,
+:root[data-theme='dark'] .avatar { background: #f4dcea; }
+
+:root:not([data-theme='dark']) .nav-item.active { color: #17151c; background: #f4dcea; }
+:root:not([data-theme='dark']) .brand,
+:root:not([data-theme='dark']) .brand-mark,
+:root:not([data-theme='dark']) .welcome-row h1,
+:root:not([data-theme='dark']) .folder-hero h1,
+:root:not([data-theme='dark']) .study-heading h1,
+:root:not([data-theme='dark']) .study-finish h1,
+:root:not([data-theme='dark']) .section-title-row h2,
+:root:not([data-theme='dark']) .list-toolbar h2 { color: #17151c; }
+
+:root:not([data-theme='dark']) .brand-mark,
+:root:not([data-theme='dark']) .button-dark { background: #17151c; color: #fff; }
+:root:not([data-theme='dark']) .button-dark:hover:not(:disabled) { background: #2d2630; }
+:root:not([data-theme='dark']) .button-light { color: #17151c; }
+
+:root:not([data-theme='dark']) .welcome-row h1 em,
+:root:not([data-theme='dark']) .auth-intro h1 em,
+:root:not([data-theme='dark']) .text-button,
+:root:not([data-theme='dark']) .back-link,
+:root:not([data-theme='dark']) .auth-switch-prompt button { color: #a85c8b; }
+
+:root[data-theme='dark'] .app-shell,
+:root[data-theme='dark'] .main-area,
+:root[data-theme='dark'] .auth-page { background: #17151c; }
+:root[data-theme='dark'] .sidebar,
+:root[data-theme='dark'] .topbar,
+:root[data-theme='dark'] .folder-card,
+:root[data-theme='dark'] .recent-list,
+:root[data-theme='dark'] .flashcard-list,
+:root[data-theme='dark'] .study-card-face,
+:root[data-theme='dark'] .question-panel,
+:root[data-theme='dark'] .pair-choice,
+:root[data-theme='dark'] .auth-card,
+:root[data-theme='dark'] .modal-card,
+:root[data-theme='dark'] .search-box,
+:root[data-theme='dark'] .study-mode-card,
+:root[data-theme='dark'] .practice-card,
+:root[data-theme='dark'] .card-preview { background: #211e24; border-color: #3b343b; }
+:root[data-theme='dark'] .topbar { background: rgba(23,21,28,.94); }
+:root[data-theme='dark'] .nav-item.active,
+:root[data-theme='dark'] .auth-tabs button.selected { color: #17151c; background: #d59bbd; }
 .language-control { display: inline-flex; min-width: 0; align-items: center; }
 .language-control select { min-height: 31px; max-width: 115px; padding: 0 24px 0 9px; border: 1px solid #e5e3dc; border-radius: 7px; color: #647064; background: #fff; font-size: 9px; font-weight: 600; }
 .language-control select:focus-visible { outline-offset: 2px; }
